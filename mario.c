@@ -30,6 +30,6 @@ int valid_height(string prompt){
     do{
         height = get_int("%s", prompt);
     }
-    while (height<1 || height>9);
+    while (height<1 || height>8);
     return height;
 }
